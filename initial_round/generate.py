@@ -10,6 +10,8 @@ def generate_drip():
     drip["hanna_score"] = None
     return drip
 
+# 4 corners X 4 corner locations x 9 drip locations = 144 unique drips x 17 second options = 2448 drip + time options
+
 def generate_paper():
     paper = {}
     paper["number_drips"] = random.randint(1, 5)
